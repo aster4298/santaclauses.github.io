@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Santa Animation</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="snowfall-min.js"></script>
+
+</head>
+<body>
+    <div class="container">
+    </div>
+
+    <div id="my-div">
+        <img src="santa.gif" alt="Santa">
+    </div>
+    <div class="snow.jpeg"></div>
+    <script src="script.js"></script>
+    <script>
+        snowFall.snow(document.querySelector(".container"),{
+            round: true,
+            minSize:5,
+            maxSize:8,
+            Shadow: true,
+            flakeCount: 150,
+            flakeColor: "#c7dfea",
+        })
+    </script>
+</body>
+</html>
